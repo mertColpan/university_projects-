@@ -49,7 +49,8 @@ git clone https://github.com/yourusername/genetic-algorithm-visualizer.git`
 
 
 ## Example Usage
-
-`python3 function_tesst.py --populations 5 10 15 --mutation_rates 0.2 0.1 --generation_num 25 --repetitions 100 --selection_method elitism_selection --crossover_method multi_point  --generation_num_exp 30 --image_number 1`
+```bash
+python3 main.py --populations 5 10 15 --mutation_rates 0.2 0.1 --generation_num 25 --repetitions 100 --selection_method elitism_selection --crossover_method multi_point  --generation_num_exp 30 --image_number 1
+```
 
 
