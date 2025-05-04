@@ -25,7 +25,8 @@ To run this project, Python and some libraries are required. You can install the
 
 ### Cloning Repository
 ```bash
-git clone https://github.com/yourusername/genetic-algorithm-visualizer.git`
+git clone https://github.com/mertColpan/university_projects-.git
+cd university_projects-/genetic_algorithm
 ```
 
 
