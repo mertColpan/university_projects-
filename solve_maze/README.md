@@ -14,13 +14,31 @@ catkin_make
 # Install
 
 ```
+# 1. Go to the workspace source directory
 cd ~/robotlar_ws/src
+
+# 2. Clone the GitHub repository
 git clone https://github.com/mertColpan/university_projects-.git
-cd ~/solve_maze/robotlar_ws
+
+# 3. Move only the solve_maze package into src
+mv university_projects-/solve_maze ./
+
+# 4. Remove the now-unnecessary cloned repository folder
+rm -rf university_projects-
+
+# 5. Go back to the root of the workspace
+cd ~/robotlar_ws
+
+# 6. Install dependencies
 rosdep install --from-paths src --ignore-src -r -y
+
+# 7. Build the workspace
 catkin_make
+
+# 8. Source the setup files
 source devel/setup.bash
 source ~/.bashrc
+
 ```
 
 
