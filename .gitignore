@@ -1,0 +1,47 @@
+# === C / C++ ===
+*.o
+*.obj
+*.lo
+*.out
+*.exe
+*.gch
+*.a
+*.so
+*.dll
+
+# Build folders
+build/
+bin/
+lib/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+*.egg-info/
+*.log
+
+# === Ortak ===
+# VSCode
+.vscode/
+
+# Qt Creator
+*.pro.user
+*.autosave
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Geçici dosyalar
+*~
+*.swp
